@@ -21,9 +21,14 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-data-rest")
-    implementation("org.springframework.boot:spring-boot-starter-security")
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-security")
+
+
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("io.jsonwebtoken:jjwt:0.9.1")
+
 
 
 //    runtimeOnly("com.mysql:mysql-connector-j")
