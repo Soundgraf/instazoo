@@ -1,9 +1,9 @@
 package com.example.instazoo.service;
 
 import com.example.instazoo.exception.PostNotFoundException;
-import com.example.instazoo.model.ImageModel;
-import com.example.instazoo.model.Post;
-import com.example.instazoo.model.User;
+import com.example.instazoo.model.entity.ImageModel;
+import com.example.instazoo.model.entity.Post;
+import com.example.instazoo.model.entity.User;
 import com.example.instazoo.model.dto.PostDto;
 import com.example.instazoo.repository.ImageRepository;
 import com.example.instazoo.repository.PostRepository;

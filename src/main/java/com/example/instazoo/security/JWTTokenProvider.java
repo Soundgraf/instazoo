@@ -1,6 +1,6 @@
 package com.example.instazoo.security;
 
-import com.example.instazoo.model.User;
+import com.example.instazoo.model.entity.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;

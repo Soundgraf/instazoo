@@ -1,9 +1,9 @@
 package com.example.instazoo.repository;
 
 import com.example.instazoo.exception.ImageNotFoundException;
-import com.example.instazoo.model.ImageModel;
-import com.example.instazoo.model.Post;
-import com.example.instazoo.model.User;
+import com.example.instazoo.model.entity.ImageModel;
+import com.example.instazoo.model.entity.Post;
+import com.example.instazoo.model.entity.User;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.security.Principal;

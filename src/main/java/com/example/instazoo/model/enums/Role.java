@@ -1,4 +1,4 @@
-package com.example.instazoo.enums;
+package com.example.instazoo.model.enums;
 
 public enum Role {
 

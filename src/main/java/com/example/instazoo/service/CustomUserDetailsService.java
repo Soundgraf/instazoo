@@ -1,6 +1,6 @@
 package com.example.instazoo.service;
 
-import com.example.instazoo.model.User;
+import com.example.instazoo.model.entity.User;
 import com.example.instazoo.repository.UserRepository;
 import java.util.List;
 import java.util.stream.Collectors;

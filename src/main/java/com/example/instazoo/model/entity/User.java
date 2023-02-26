@@ -1,6 +1,6 @@
-package com.example.instazoo.model;
+package com.example.instazoo.model.entity;
 
-import com.example.instazoo.enums.Role;
+import com.example.instazoo.model.enums.Role;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.CollectionTable;

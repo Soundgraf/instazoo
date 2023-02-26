@@ -1,8 +1,8 @@
 package com.example.instazoo.service;
 
-import com.example.instazoo.enums.Role;
+import com.example.instazoo.model.enums.Role;
 import com.example.instazoo.exception.UserExistsException;
-import com.example.instazoo.model.User;
+import com.example.instazoo.model.entity.User;
 import com.example.instazoo.model.dto.UserDto;
 import com.example.instazoo.payload.request.SignupRequest;
 import com.example.instazoo.repository.UserRepository;
