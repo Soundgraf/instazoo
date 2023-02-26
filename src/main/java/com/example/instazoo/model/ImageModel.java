@@ -29,7 +29,7 @@ public class ImageModel {
     String name;
     @Lob
     @Column(columnDefinition = "OID")
-    byte[] imageByte;
+    byte[] imageBytes;
     @JsonIgnore
     Long userId;
     @JsonIgnore

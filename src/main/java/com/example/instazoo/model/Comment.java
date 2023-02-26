@@ -30,7 +30,7 @@ public class Comment {
     @ManyToOne(fetch = FetchType.EAGER)
     Post post;
     @Column(nullable = false)
-    String userId;
+    Long userId;
     @Column(nullable = false)
     String username;
     @Column(columnDefinition = "text", nullable = false)

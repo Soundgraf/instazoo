@@ -39,7 +39,6 @@ public class SecurityConfig {
         return auth.getAuthenticationManager();
     }
 
-    // TODO: 26.02.2023 Не работает энкодинг пароля
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
         return new BCryptPasswordEncoder();
